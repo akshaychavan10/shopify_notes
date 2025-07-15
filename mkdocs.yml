@@ -1,0 +1,62 @@
+site_name: Shopify Notes
+site_description: Shopify Development Guide
+site_author: Akshay
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: green
+      accent: green
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - codehilite
+  - admonition
+
+nav:
+  - Home: index.md
+  - Getting Started: "1. Setting Up.md"
+  - Orders: "2. Orders.md"
+  - Products: "3. Products.md"
+  - Customers: "4. Customers.md"
+  - Marketing: "5. Marketing.md"
+  - Discounts: "7. Discounts.md"
+  - Content: "8. Content.md"
+  - Markets: "9. Markets.md"
+  - Themes: "10. Themes.md"
+  - Apps: 
+    - Apps: "11. Apps.md"
+    - Health Checkers: "11.1 Health Checkers.md"
+    - Productivity Boosters: "11.2 Productivity Boosters.md"
+    - Customer Service: "11.3 Customer Service.md"
+    - On the Product Page: "11.4 On the Product Page.md"
+    - At the Checkout: "11.5 At the Checkout.md"
+    - Retargetting: "11.6 Retargetting.md"
+    - Expanding Your Reach: "11.7 Expanding Your Reach.md"
+  - "What's Next": "12 Where to Now.md"
+  - Settings:
+    - General: "Settings/1. General.md"
+    - Payments: "Settings/2. Payments.md"
+    - Checkout: "Settings/3. Checkout.md"
+    - Customer Accounts: "Settings/4. Customer Accounts.md"
+    - Shipping: "Settings/5. Shipping and delivery.md"
+    - Taxes: "Settings/6. Taxes and Duties.md"
+    - Locations: "Settings/7. Locations.md"
+    - Apps & Sales: "Settings/8. Apps and Sales Channels.md"
+    - Domains: "Settings/9. Domains.md"
+    - Customer Events: "Settings/10. Customer events.md"
+    - Policies: "Settings/11. Policies.md"
